@@ -1,0 +1,28 @@
+{
+  "officers": [
+    {
+      "name": "John Doe",
+      "title": "President",
+      "email": "president@charlotte.edu",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Jane Smith",
+      "title": "Vice President",
+      "email": "vp@charlotte.edu",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Mike Johnson",
+      "title": "Treasurer",
+      "email": "treasurer@charlotte.edu",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Sarah Wilson",
+      "title": "Secretary",
+      "email": "secretary@charlotte.edu",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}

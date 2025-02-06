@@ -1,0 +1,206 @@
+.meets {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.meets-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.meets-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.meets-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.season-section {
+  background: var(--card-background);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.season-toggle {
+  width: 100%;
+  padding: 20px;
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.season-toggle:hover {
+  background: var(--primary-hover);
+}
+
+.season-toggle h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.toggle-icon {
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.season-content {
+  padding: 20px;
+}
+
+.semester-section {
+  margin-bottom: 30px;
+}
+
+.semester-section h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.meets-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.meet-card {
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.meet-card:hover {
+  transform: translateY(-5px);
+}
+
+.meet-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.meet-details {
+  margin: 15px 0;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.meet-date, .meet-location {
+  margin: 5px 0;
+}
+
+.meet-description {
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.meet-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.meet-button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.meet-button.packet {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.meet-button.packet:hover {
+  background-color: var(--primary-hover);
+}
+
+.meet-button.results {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+.meet-button.results:hover {
+  background-color: var(--background-color);
+}
+
+.meets-info {
+  margin-top: 40px;
+  background: var(--card-background);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.meets-info h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.meets-info p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  .season-section {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .meet-card {
+    background: var(--card-background);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .meet-button.results {
+    background-color: var(--background-color);
+  }
+
+  .meet-button.results:hover {
+    background-color: var(--primary-hover);
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .meets-header h1 {
+    font-size: 2em;
+  }
+  
+  .meets-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .meet-card {
+    padding: 15px;
+  }
+
+  .season-toggle h2 {
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "meets": [
+    {
+      "season": "2023-2024",
+      "current": true,
+      "fall": [
+        {
+          "name": "Carolina Club Swimming Invitational",
+          "date": "October 15, 2023",
+          "location": "NC State Willis R. Casey Aquatic Center",
+          "description": "Annual invitational meet hosted by NC State Club Swimming.",
+          "meetPacket": "https://example.com/packet1",
+          "results": "https://example.com/results1"
+        },
+        {
+          "name": "Georgia Tech Fall Classic",
+          "date": "November 12, 2023",
+          "location": "Georgia Tech McAuley Aquatic Center",
+          "description": "Fall invitational featuring teams from the Southeast.",
+          "meetPacket": "https://example.com/packet2"
+        }
+      ],
+      "spring": [
+        {
+          "name": "Southeast Regional Championship",
+          "date": "March 1-2, 2024",
+          "location": "Charlotte Aquatic Center",
+          "description": "Regional championship meet featuring teams from the southeastern United States.",
+          "meetPacket": "https://example.com/packet3"
+        },
+        {
+          "name": "CCS National Championship",
+          "date": "April 15-17, 2024",
+          "location": "Georgia Tech McAuley Aquatic Center",
+          "description": "The premier event of the College Club Swimming season featuring the top club teams from across the nation.",
+          "meetPacket": "https://example.com/packet4"
+        }
+      ]
+    },
+    {
+      "season": "2022-2023",
+      "current": false,
+      "fall": [
+        {
+          "name": "Duke Fall Invitational",
+          "date": "October 8, 2022",
+          "location": "Duke University Aquatic Center",
+          "description": "Fall kickoff meet hosted by Duke Club Swimming.",
+          "meetPacket": "https://example.com/packet5",
+          "results": "https://example.com/results5"
+        },
+        {
+          "name": "Clemson Tiger Invite",
+          "date": "November 5, 2022",
+          "location": "Clemson University Aquatic Complex",
+          "description": "Annual fall invitational at Clemson University.",
+          "meetPacket": "https://example.com/packet6",
+          "results": "https://example.com/results6"
+        }
+      ],
+      "spring": [
+        {
+          "name": "Southeast Regional Championship",
+          "date": "February 25-26, 2023",
+          "location": "University of Georgia Aquatic Center",
+          "description": "Regional championship meet for Southeast teams.",
+          "meetPacket": "https://example.com/packet7",
+          "results": "https://example.com/results7"
+        },
+        {
+          "name": "CCS National Championship",
+          "date": "April 7-9, 2023",
+          "location": "Ohio State University Aquatic Center",
+          "description": "National championship meet for College Club Swimming.",
+          "meetPacket": "https://example.com/packet8",
+          "results": "https://example.com/results8"
+        }
+      ]
+    }
+  ]
+}

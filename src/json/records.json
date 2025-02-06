@@ -1,0 +1,81 @@
+{
+  "mixedRelay": {
+    "event": "200 Mixed Free Relay",
+    "time": "1:35.45",
+    "names": "John Smith, Sarah Johnson, Mike Davis, Emily White",
+    "year": "2024",
+    "link": "https://www.youtube.com/watch?v=example1"
+  },
+  "mens": {
+    "freestyle": [
+      { "event": "50 Free", "time": "20.45", "name": "John Smith", "year": "2024", "link": "https://www.youtube.com/watch?v=example2" },
+      { "event": "100 Free", "time": "45.67", "name": "Mike Johnson", "year": "2023" },
+      { "event": "200 Free", "time": "1:42.34", "name": "David Brown", "year": "2024", "link": "https://www.youtube.com/watch?v=example3" },
+      { "event": "500 Free", "time": "4:35.89", "name": "Chris Wilson", "year": "2023" },
+      { "event": "1000 Free", "time": "9:45.67", "name": "Andrew Davis", "year": "2024" }
+    ],
+    "backstroke": [
+      { "event": "50 Back", "time": "24.56", "name": "Tom Davis", "year": "2024" },
+      { "event": "100 Back", "time": "52.12", "name": "James Miller", "year": "2023", "link": "https://www.youtube.com/watch?v=example4" },
+      { "event": "200 Back", "time": "1:55.78", "name": "Brian Wilson", "year": "2024" }
+    ],
+    "breaststroke": [
+      { "event": "50 Breast", "time": "27.89", "name": "Alex Turner", "year": "2024" },
+      { "event": "100 Breast", "time": "58.90", "name": "Ryan Clark", "year": "2023" },
+      { "event": "200 Breast", "time": "2:10.45", "name": "Kevin White", "year": "2024", "link": "https://www.youtube.com/watch?v=example5" }
+    ],
+    "butterfly": [
+      { "event": "50 Fly", "time": "23.45", "name": "Daniel Lee", "year": "2024" },
+      { "event": "100 Fly", "time": "51.23", "name": "Kevin White", "year": "2024", "link": "https://www.youtube.com/watch?v=example6" },
+      { "event": "200 Fly", "time": "1:56.78", "name": "Daniel Lee", "year": "2023" }
+    ],
+    "im": [
+      { "event": "100 IM", "time": "52.34", "name": "Mike Johnson", "year": "2024" },
+      { "event": "200 IM", "time": "1:55.67", "name": "Chris Wilson", "year": "2023", "link": "https://www.youtube.com/watch?v=example7" },
+      { "event": "400 IM", "time": "4:15.89", "name": "David Brown", "year": "2024" }
+    ],
+    "relays": [
+      { "event": "200 Free Relay", "time": "1:24.56", "names": "John S., Mike J., David B., Chris W.", "year": "2024", "link": "https://www.youtube.com/watch?v=example8" },
+      { "event": "400 Free Relay", "time": "3:05.78", "names": "Mike J., Tom D., Kevin W., David B.", "year": "2023" },
+      { "event": "800 Free Relay", "time": "7:15.34", "names": "David B., Chris W., Brian W., Mike J.", "year": "2024" },
+      { "event": "200 Medley Relay", "time": "1:32.45", "names": "Tom D., Alex T., Daniel L., John S.", "year": "2024", "link": "https://www.youtube.com/watch?v=example9" },
+      { "event": "400 Medley Relay", "time": "3:25.67", "names": "James M., Ryan C., Kevin W., Mike J.", "year": "2023" }
+    ]
+  },
+  "womens": {
+    "freestyle": [
+      { "event": "50 Free", "time": "23.45", "name": "Sarah Johnson", "year": "2024", "link": "https://www.youtube.com/watch?v=example10" },
+      { "event": "100 Free", "time": "51.23", "name": "Emily Davis", "year": "2023" },
+      { "event": "200 Free", "time": "1:52.67", "name": "Laura Wilson", "year": "2024" },
+      { "event": "500 Free", "time": "5:01.34", "name": "Rachel Brown", "year": "2023", "link": "https://www.youtube.com/watch?v=example11" },
+      { "event": "1000 Free", "time": "10:30.45", "name": "Michelle Turner", "year": "2024" }
+    ],
+    "backstroke": [
+      { "event": "50 Back", "time": "27.89", "name": "Jessica Miller", "year": "2024" },
+      { "event": "100 Back", "time": "57.89", "name": "Amanda Clark", "year": "2023", "link": "https://www.youtube.com/watch?v=example12" },
+      { "event": "200 Back", "time": "2:05.67", "name": "Jennifer Lee", "year": "2024" }
+    ],
+    "breaststroke": [
+      { "event": "50 Breast", "time": "30.45", "name": "Katie White", "year": "2024" },
+      { "event": "100 Breast", "time": "1:05.45", "name": "Michelle Turner", "year": "2024", "link": "https://www.youtube.com/watch?v=example13" },
+      { "event": "200 Breast", "time": "2:22.12", "name": "Ashley Smith", "year": "2023" }
+    ],
+    "butterfly": [
+      { "event": "50 Fly", "time": "26.78", "name": "Emily Davis", "year": "2024" },
+      { "event": "100 Fly", "time": "56.78", "name": "Jennifer Lee", "year": "2024", "link": "https://www.youtube.com/watch?v=example14" },
+      { "event": "200 Fly", "time": "2:08.90", "name": "Sarah Johnson", "year": "2023" }
+    ],
+    "im": [
+      { "event": "100 IM", "time": "58.90", "name": "Laura Wilson", "year": "2024" },
+      { "event": "200 IM", "time": "2:08.45", "name": "Emily Davis", "year": "2023", "link": "https://www.youtube.com/watch?v=example15" },
+      { "event": "400 IM", "time": "4:35.67", "name": "Rachel Brown", "year": "2024" }
+    ],
+    "relays": [
+      { "event": "200 Free Relay", "time": "1:36.78", "names": "Sarah J., Emily D., Laura W., Rachel B.", "year": "2024", "link": "https://www.youtube.com/watch?v=example16" },
+      { "event": "400 Free Relay", "time": "3:35.45", "names": "Emily D., Jessica M., Jennifer L., Sarah J.", "year": "2023" },
+      { "event": "800 Free Relay", "time": "7:55.23", "names": "Laura W., Rachel B., Michelle T., Emily D.", "year": "2024" },
+      { "event": "200 Medley Relay", "time": "1:48.90", "names": "Jessica M., Katie W., Jennifer L., Sarah J.", "year": "2024", "link": "https://www.youtube.com/watch?v=example17" },
+      { "event": "400 Medley Relay", "time": "3:55.67", "names": "Amanda C., Ashley S., Emily D., Laura W.", "year": "2023" }
+    ]
+  }
+}

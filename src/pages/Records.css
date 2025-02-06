@@ -1,0 +1,180 @@
+.records {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.records-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.records-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.gender-toggle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.toggle-button.active {
+  background: white;
+  color: var(--primary-color);
+}
+
+.records-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.record-category {
+  background: var(--card-background);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.record-category h2 {
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.records-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.record-card {
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.record-card.clickable {
+  cursor: pointer;
+}
+
+.record-card.clickable:hover {
+  transform: translateY(-5px);
+  background: rgba(var(--primary-color-rgb), 0.1);
+}
+
+.record-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.clickable:hover h3 {
+  color: var(--primary-color);
+}
+
+.record-time {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--text-color);
+  margin: 10px 0;
+}
+
+.record-holder {
+  color: var(--text-color);
+  margin: 5px 0;
+}
+
+.record-year {
+  color: var(--text-color);
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.record-link-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2em;
+}
+
+.mixed-relay {
+  background: linear-gradient(45deg, var(--background-color), var(--card-background));
+  border: 2px solid var(--primary-color);
+}
+
+.mixed-relay.clickable:hover {
+  background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.1), rgba(var(--primary-color-rgb), 0.2));
+}
+
+@media (prefers-color-scheme: dark) {
+  .record-card {
+    background: var(--card-background);
+  }
+
+  .record-card.clickable:hover {
+    background: rgba(var(--primary-color-rgb), 0.2);
+  }
+
+  .mixed-relay {
+    border-color: var(--primary-color);
+  }
+
+  .mixed-relay.clickable:hover {
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.2), rgba(var(--primary-color-rgb), 0.3));
+  }
+}
+
+@media (max-width: 768px) {
+  .records-header h1 {
+    font-size: 2em;
+  }
+  
+  .record-category {
+    padding: 20px;
+  }
+  
+  .record-card {
+    padding: 15px;
+  }
+
+  .gender-toggle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toggle-button {
+    width: 200px;
+  }
+}
