@@ -19,7 +19,7 @@ function SeasonSection({ season, isExpanded, onToggle }) {
             <h3>Fall</h3>
             <div className="meets-grid">
               {season.fall.map((meet, index) => (
-                <div key={index} className="meet-card">
+                <div key={index} className={`meet-card ${meet.locationType}`}>
                   <h4>{meet.name}</h4>
                   <div className="meet-details">
                     <p className="meet-date">📅 {meet.date}</p>
@@ -57,7 +57,7 @@ function SeasonSection({ season, isExpanded, onToggle }) {
             <h3>Spring</h3>
             <div className="meets-grid">
               {season.spring.map((meet, index) => (
-                <div key={index} className="meet-card">
+                <div key={index} className={`meet-card ${meet.locationType}`}>
                   <h4>{meet.name}</h4>
                   <div className="meet-details">
                     <p className="meet-date">📅 {meet.date}</p>

@@ -89,16 +89,36 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .meet-card:hover {
   transform: translateY(-5px);
 }
 
+.meet-card.home {
+  border: 2px solid var(--primary-color);
+}
+
+.meet-card.home::before {
+  content: "HOME";
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 40px;
+  transform: rotate(45deg);
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
 .meet-card h4 {
   color: var(--primary-color);
   margin-bottom: 15px;
   font-size: 1.2em;
+  padding-right: 30px;
 }
 
 .meet-details {

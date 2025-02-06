@@ -1,79 +1,178 @@
 {
   "meets": [
     {
-      "season": "2023-2024",
+      "season": "2024-2025",
       "current": true,
       "fall": [
         {
-          "name": "Carolina Club Swimming Invitational",
-          "date": "October 15, 2023",
-          "location": "NC State Willis R. Casey Aquatic Center",
-          "description": "Annual invitational meet hosted by NC State Club Swimming.",
-          "meetPacket": "https://example.com/packet1",
-          "results": "https://example.com/results1"
+          "name": "White and Gold Invitational",
+          "date": "September 21, 2024",
+          "location": "Georgia Tech McAuley Aquatic Center - Atlanta, GA",
+          "locationType": "away",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/314208/?gender=C"
         },
         {
-          "name": "Georgia Tech Fall Classic",
-          "date": "November 12, 2023",
-          "location": "Georgia Tech McAuley Aquatic Center",
-          "description": "Fall invitational featuring teams from the Southeast.",
-          "meetPacket": "https://example.com/packet2"
+          "name": "2nd Annual Gold Rush Invitational",
+          "date": "October 26, 2024",
+          "location": "Mecklenburg County Aquatic Center (MCAC) - Charlotte, NC",
+          "locationType": "home",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/318483/?gender=C"
+        },
+        {
+          "name": "CCS Southern Regionals Championship",
+          "date": "November 9-10, 2024",
+          "location": "Morcom Aquatic Center - Tallahassee, FL",
+          "locationType": "away",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/320316/?gender=C"
+        },
+        {
+          "name": "Raleighwood Invitational",
+          "date": "November 16-17, 2024",
+          "location": "Willis Casey Natatorium - Raleigh, NC",
+          "locationType": "away",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/321705/?gender=C"
         }
       ],
       "spring": [
         {
-          "name": "Southeast Regional Championship",
-          "date": "March 1-2, 2024",
-          "location": "Charlotte Aquatic Center",
-          "description": "Regional championship meet featuring teams from the southeastern United States.",
-          "meetPacket": "https://example.com/packet3"
+          "name": "NC State Pajama Meet",
+          "date": "February 1, 2025",
+          "location": "Willis Casey Natatorium - Raleigh, NC",
+          "locationType": "away",
+          "description": "NC State accepted pajama donations as payment of meet fees instead of cash",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/334814/?gender=C"
         },
         {
-          "name": "CCS National Championship",
-          "date": "April 15-17, 2024",
-          "location": "Georgia Tech McAuley Aquatic Center",
-          "description": "The premier event of the College Club Swimming season featuring the top club teams from across the nation.",
-          "meetPacket": "https://example.com/packet4"
+          "name": "College Club Swimming National Championship",
+          "date": "March 28-30, 2025",
+          "location": "Skyline Aquatic Center - Mesa, AZ",
+          "locationType": "away",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/312950/?gender=C"
         }
       ]
     },
     {
-      "season": "2022-2023",
+      "season": "2023-2024",
       "current": false,
       "fall": [
         {
-          "name": "Duke Fall Invitational",
-          "date": "October 8, 2022",
-          "location": "Duke University Aquatic Center",
-          "description": "Fall kickoff meet hosted by Duke Club Swimming.",
-          "meetPacket": "https://example.com/packet5",
-          "results": "https://example.com/results5"
+          "name": "Classic City Invitational",
+          "date": "September 30, 2023",
+          "location": "Gabrielsen Natatorium - Athens GA",
+          "locationType": "away",
+          "description": "",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/279118/?gender=C"
         },
         {
-          "name": "Clemson Tiger Invite",
-          "date": "November 5, 2022",
-          "location": "Clemson University Aquatic Complex",
-          "description": "Annual fall invitational at Clemson University.",
-          "meetPacket": "https://example.com/packet6",
-          "results": "https://example.com/results6"
+          "name": "Raleighwood Invitational",
+          "date": "October 14-15, 2023",
+          "location": "Willis Casey Natatorium - Raleigh, NC",
+          "locationType": "away",
+          "description": "",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/280434/?gender=C"
+        },
+        {
+          "name": "Gold Rush Invitational",
+          "date": "October 21, 2023",
+          "location": "Mecklenburg County Aquatic Center (MCAC) - Charlotte, NC",
+          "locationType": "home",
+          "description": "",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/281159/?gender=C"
+        },
+        {
+          "name": "CCS Southern Regionals",
+          "date": "November 11-12, 2023",
+          "location": "Georgia Tech McAuley Aquatic Center - Atlanta, GA",
+          "locationType": "away",
+          "description": "",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/283754/?gender=C"
+        },
+        {
+          "name": "Clemson Tigertown Invitational",
+          "date": "December 2, 2023",
+          "location": "McHugh Natatorium - Clemson, SC",
+          "locationType": "away",
+          "description": "",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/286843/?gender=C"
         }
       ],
       "spring": [
         {
-          "name": "Southeast Regional Championship",
-          "date": "February 25-26, 2023",
-          "location": "University of Georgia Aquatic Center",
-          "description": "Regional championship meet for Southeast teams.",
-          "meetPacket": "https://example.com/packet7",
-          "results": "https://example.com/results7"
+          "name": "NC State's Annual Pajama Meet",
+          "date": "January 20, 2024",
+          "location": "Willis Casey Natatorium - Raleigh, NC",
+          "locationType": "away",
+          "description": "Regional championship meet featuring teams from the southeastern United States.",
+          "meetPacket": "https://example.com/packet3",
+          "results": "https://www.swimcloud.com/results/293660/?gender=C"
         },
         {
-          "name": "CCS National Championship",
-          "date": "April 7-9, 2023",
-          "location": "Ohio State University Aquatic Center",
-          "description": "National championship meet for College Club Swimming.",
-          "meetPacket": "https://example.com/packet8",
-          "results": "https://example.com/results8"
+          "name": "Clemson Winter Invitation",
+          "date": "January 27, 2024",
+          "location": "McHugh Natatorium - Clemson, SC",
+          "locationType": "away",
+          "description": "",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/295261/?gender=C"
+        },
+        {
+          "name": "Wet Wahoos Invitational",
+          "date": "February 17, 2024",
+          "location": "Aquatic and Fitness Center Pool - Charlottesville, VA",
+          "locationType": "away",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/297897/?gender=C"
+        },
+        {
+          "name": "CLT Intersquad",
+          "date": "February 29, 2024",
+          "location": "Huntersville Fun and Family Fitness Center (HFFA) - Huntersville, NC",
+          "locationType": "home",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/298957/?gender=C"
+        },
+        {
+          "name": "High Country Invitational",
+          "date": "March 2, 2024",
+          "location": "Watauga Community Rec Center - Boone, NC",
+          "locationType": "away",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/299163/?gender=C"
+        },
+        {
+          "name": "College Club Swimming National Championship",
+          "date": "April 5-7, 2024",
+          "location": "Indiana University Natatorium - Indianapolis, IN",
+          "description": "The premier event of the College Club Swimming season featuring the top club teams from across the nation.",
+          "meetPacket": "https://example.com/packet4",
+          "results": "https://www.swimcloud.com/results/286121/?gender=C"
+        },
+        {
+          "name": "NC EVO Cyrus Blakney Memorial A-May-Zing Meet",
+          "date": "May 3-4, 2024",
+          "location": "Huntersville Fun and Family Fitness Center (HFFA) - Huntersville, NC",
+          "description": "",
+          "meetPacket": "https://example.com/packet4",
+          "results": "https://www.swimcloud.com/results/303478/?gender=C"
         }
       ]
     }
