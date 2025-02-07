@@ -1,28 +1,46 @@
 {
   "officers": [
     {
-      "name": "John Doe",
+      "name": "Ashley Jean",
       "title": "President",
-      "email": "president@charlotte.edu",
-      "image": "https://via.placeholder.com/150"
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
-      "name": "Jane Smith",
+      "name": "Ian Mervich",
       "title": "Vice President",
-      "email": "vp@charlotte.edu",
-      "image": "https://via.placeholder.com/150"
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
-      "name": "Mike Johnson",
+      "name": "Brandon Daves",
       "title": "Treasurer",
-      "email": "treasurer@charlotte.edu",
-      "image": "https://via.placeholder.com/150"
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
-      "name": "Sarah Wilson",
-      "title": "Secretary",
-      "email": "secretary@charlotte.edu",
-      "image": "https://via.placeholder.com/150"
+      "name": "Vidhur Jagadeesh",
+      "title": "Social Chair",
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
+    },
+    {
+      "name": "Sammy Tjandra",
+      "title": "Social Media Manager",
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
+    },
+    {
+      "name": "Tyler Seidel",
+      "title": "Safety Officer",
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
+    },
+    {
+      "name": "Jll Harbert",
+      "title": "Practice Coordinator",
+      "email": "example@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
     }
   ]
 }
