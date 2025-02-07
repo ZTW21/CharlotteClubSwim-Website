@@ -72,7 +72,10 @@ function Records() {
                 <RecordCard key={index} record={record} />
               ))}
               {key === 'relays' && (
-                <RecordCard record={recordsData.mixedRelay} />
+                <>
+                  <RecordCard record={recordsData.mixedRelays.freeRelay} />
+                  <RecordCard record={recordsData.mixedRelays.medleyRelay} />
+                </>
               )}
             </div>
           </section>
