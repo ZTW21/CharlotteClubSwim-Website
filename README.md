@@ -9,6 +9,20 @@ All data files are located in the `src/json` folder:
 - `meets.json`: Competition schedule
 - `records.json`: Swimming records
 - `social.json`: Social media links and footer information
+- `photos.json`: Photo gallery information
+
+## University Branding
+
+The UNCC "All-in-C" logo is used in several places throughout the site:
+- Navigation header (40px height)
+- Footer (50px height, inverted to white)
+
+To update the logo:
+1. Replace the logo at `public/assets/branding/All-in-C.png`
+2. Keep the same filename
+3. Use a PNG file with transparent background
+4. Recommended size: at least 200x200 pixels
+5. The logo will automatically be sized appropriately and inverted in the footer
 
 ## How to Edit Officer Information
 
@@ -28,16 +42,6 @@ To update an officer:
 3. Make sure to keep the quotation marks and commas
 4. Don't change the field names (name, title, email, image)
 
-Example:
-```json
-{
-    "name": "Jane Smith",      // Change just the text between the quotes
-    "title": "President",      // Keep the quotes and commas
-    "email": "new@email.com",  // Make sure the email is correct
-    "image": "./assets/officers/officer-placeholder.jpg"  // Leave this as is for now
-}
-```
-
 ## How to Edit Meet Information
 
 The meet schedule is stored in `src/json/meets.json`. Meets are organized by season and semester.
@@ -55,14 +59,6 @@ Each meet has these fields:
 }
 ```
 
-To add a new meet:
-1. Find the correct season (e.g., "2023-2024")
-2. Find the correct semester ("fall" or "spring")
-3. Copy an existing meet entry and paste it in the right section
-4. Update all the fields with the new meet's information
-5. Make sure to add/remove commas appropriately:
-   - Add a comma after each meet EXCEPT the last one in a section
-
 ## How to Edit Records
 
 The swimming records are stored in `src/json/records.json`. Records are separated into men's and women's categories, plus mixed relays.
@@ -78,23 +74,57 @@ Each record has these fields:
 }
 ```
 
-For relay records, use "names" instead of "name":
+## How to Manage Photo Galleries
+
+The photo galleries are managed using Google Photos and configured in `src/json/photos.json`. This provides a free, high-quality solution for storing and sharing team photos.
+
+### Setting Up a New Gallery
+
+1. Create a new album in Google Photos:
+   - Open Google Photos (photos.google.com)
+   - Click "Create Album"
+   - Upload your photos
+   - Give the album a descriptive name
+
+2. Share the album:
+   - Open the album
+   - Click the share icon
+   - Click "Create link"
+   - Copy the link
+
+3. Get the album thumbnail:
+   - Open the album
+   - Right-click the photo you want as thumbnail
+   - Copy the image address
+
+4. Add the gallery to `photos.json`:
 ```json
 {
-    "event": "200 Free Relay",
-    "time": "1:24.56",
-    "names": "Swimmer 1, Swimmer 2, Swimmer 3, Swimmer 4",
-    "year": "2024",
-    "link": "video-link"  // Optional - remove if no video
+    "title": "Event Name",
+    "date": "Month Day, Year",
+    "description": "Brief description of the event",
+    "thumbnailUrl": "copied-thumbnail-url",
+    "albumUrl": "copied-album-link",
+    "photoCount": "XX photos"
 }
 ```
 
-To update a record:
-1. Find the correct category (mens/womens)
-2. Find the correct stroke category (freestyle, backstroke, etc.)
-3. Find the specific event
-4. Update the values between the quotation marks
-5. Keep all punctuation (quotes, commas) exactly as shown
+### Tips for Photo Management
+
+1. Image Quality:
+   - Upload high-resolution photos
+   - Google Photos maintains original quality
+   - Users can download full-resolution images
+
+2. Album Organization:
+   - Create separate albums for each event
+   - Use consistent naming (e.g., "Fall 2023 Championship Meet")
+   - Choose a good cover photo for the thumbnail
+
+3. Privacy:
+   - Only share albums using links
+   - Don't make albums publicly searchable
+   - Test the link before adding to the website
 
 ## How to Edit Social Media Links
 
@@ -108,17 +138,6 @@ Each social media link has these fields:
     "icon": "fab fa-instagram"
 }
 ```
-
-To update social media:
-1. Find the platform you want to update
-2. Change only the "url" value to your new social media link
-3. Don't change the "icon" field as it controls the button's appearance
-4. Make sure to keep all punctuation (quotes, commas) exactly as shown
-
-To update the copyright text:
-1. Find the "copyright" field at the bottom of the file
-2. Change the text between the quotes
-3. Keep the © symbol and year format
 
 ## Important Notes
 

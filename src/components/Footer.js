@@ -10,6 +10,13 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <div className="footer-branding">
+          <img 
+            src="/assets/branding/All-in-C.png" 
+            alt="UNCC Logo" 
+            className="footer-logo"
+          />
+        </div>
         <button onClick={handleContactClick} className="contact-button">
           Contact Us
         </button>
