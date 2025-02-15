@@ -8,6 +8,7 @@ All data files are located in the `src/json` folder:
 - `officers.json`: Officer information
 - `meets.json`: Competition schedule
 - `records.json`: Swimming records
+- `social.json`: Social media links and footer information
 
 ## How to Edit Officer Information
 
@@ -33,7 +34,7 @@ Example:
     "name": "Jane Smith",      // Change just the text between the quotes
     "title": "President",      // Keep the quotes and commas
     "email": "new@email.com",  // Make sure the email is correct
-    "image": "./assets/officers/officer-placeholder.jpg"  // Add image to public/assets/officers and change the filepath
+    "image": "./assets/officers/officer-placeholder.jpg"  // Leave this as is for now
 }
 ```
 
@@ -94,6 +95,30 @@ To update a record:
 3. Find the specific event
 4. Update the values between the quotation marks
 5. Keep all punctuation (quotes, commas) exactly as shown
+
+## How to Edit Social Media Links
+
+The social media information is stored in `src/json/social.json`. This file controls the footer's social media buttons and copyright text.
+
+Each social media link has these fields:
+```json
+{
+    "platform": "Instagram",
+    "url": "https://instagram.com/unccclubswim",
+    "icon": "fab fa-instagram"
+}
+```
+
+To update social media:
+1. Find the platform you want to update
+2. Change only the "url" value to your new social media link
+3. Don't change the "icon" field as it controls the button's appearance
+4. Make sure to keep all punctuation (quotes, commas) exactly as shown
+
+To update the copyright text:
+1. Find the "copyright" field at the bottom of the file
+2. Change the text between the quotes
+3. Keep the © symbol and year format
 
 ## Important Notes
 

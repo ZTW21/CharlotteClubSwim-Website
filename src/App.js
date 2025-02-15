@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Meets from './pages/Meets';
 import Records from './pages/Records';
@@ -18,6 +19,7 @@ function App() {
             <Route path="/records" element={<Records />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );

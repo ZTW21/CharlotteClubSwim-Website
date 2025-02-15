@@ -3,10 +3,6 @@ import './Home.css';
 import officersData from '../json/officers.json';
 
 function Home() {
-  const handleContactClick = () => {
-    window.location.href = 'mailto:swimming@charlotte.edu';
-  };
-
   return (
     <div className="home">
       <header className="hero">
@@ -31,12 +27,6 @@ function Home() {
             </div>
           ))}
         </div>
-      </section>
-
-      <section className="contact">
-        <button onClick={handleContactClick} className="contact-button">
-          Contact Us
-        </button>
       </section>
     </div>
   );
