@@ -1,5 +1,7 @@
 # Charlotte Club Swimming Website
 
+Development Site: [charlotte-club-swim-website](https://charlotte-club-swim-website-1pnk6y7ph-ztw21s-projects.vercel.app/)
+
 This guide explains how to update the content on the Charlotte Club Swimming website. All the site's data is stored in JSON files that can be edited directly.
 
 ## Where to Find the Data Files
