@@ -131,7 +131,7 @@ function Meets() {
 
       <section className="meets-info">
         <h2>About Our Competitions</h2>
-        <p>Our team participates in College Club Swimming (CCS) sanctioned meets throughout the academic year. These competitions provide opportunities for swimmers of all skill levels to compete and improve their times.</p>
+        <p>Our team participates in <a href="https://www.collegeclubswimming.com" target="_blank" rel="noopener noreferrer" className="ccs-link">College Club Swimming (CCS)</a> sanctioned meets throughout the academic year. These competitions provide opportunities for swimmers of all skill levels to compete and improve their times.</p>
         <p>For more information about specific meets or how to participate, please contact our team officers.</p>
       </section>
     </div>

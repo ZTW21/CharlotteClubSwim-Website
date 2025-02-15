@@ -7,7 +7,7 @@ function Home() {
     <div className="home">
       <header className="hero">
         <h1>Charlotte Club Swimming</h1>
-        <p>Sanctioned under College Club Swimming (CCS)</p>
+        <p>Sanctioned under <a href="https://www.collegeclubswimming.com" target="_blank" rel="noopener noreferrer" className="ccs-link">College Club Swimming (CCS)</a></p>
       </header>
 
       <section className="team-info">

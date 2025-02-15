@@ -18,6 +18,18 @@
   margin-bottom: 10px;
 }
 
+.hero .ccs-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  padding-bottom: 2px;
+}
+
+.hero .ccs-link:hover {
+  border-bottom-color: white;
+}
+
 .team-info {
   text-align: center;
   margin-bottom: 40px;
@@ -79,26 +91,6 @@
 
 .officer-email:hover {
   text-decoration: underline;
-}
-
-.contact {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.contact-button {
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  font-size: 1.2em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-  background-color: var(--primary-hover);
 }
 
 @media (prefers-color-scheme: dark) {
