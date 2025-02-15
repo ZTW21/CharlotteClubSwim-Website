@@ -1,0 +1,33 @@
+{
+  "galleries": [
+    {
+      "title": "Fall 2023 Championship Meet",
+      "date": "November 12, 2023",
+      "description": "Photos from our championship meet at Georgia Tech",
+      "thumbnailUrl": "https://lh3.googleusercontent.com/example-thumbnail",
+      "albumUrl": "https://photos.app.goo.gl/example",
+      "photoCount": "156 photos"
+    },
+    {
+      "title": "Team Social Event",
+      "date": "October 15, 2023",
+      "description": "Team bonding and pizza night",
+      "thumbnailUrl": "https://lh3.googleusercontent.com/example-thumbnail",
+      "albumUrl": "https://photos.app.goo.gl/example",
+      "photoCount": "43 photos"
+    },
+    {
+      "title": "Practice Highlights",
+      "date": "September 2023",
+      "description": "Morning practice photos and team training",
+      "thumbnailUrl": "https://lh3.googleusercontent.com/example-thumbnail",
+      "albumUrl": "https://photos.app.goo.gl/example",
+      "photoCount": "87 photos"
+    }
+  ],
+  "instructions": {
+    "viewing": "Click on any gallery to open it in Google Photos",
+    "downloading": "To download a photo: open the gallery, click on a photo, then click the three dots menu and select 'Download'",
+    "sharing": "Feel free to share these galleries with friends and family"
+  }
+}
