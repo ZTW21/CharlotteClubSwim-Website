@@ -33,7 +33,7 @@ Example:
     "name": "Jane Smith",      // Change just the text between the quotes
     "title": "President",      // Keep the quotes and commas
     "email": "new@email.com",  // Make sure the email is correct
-    "image": "./assets/officers/officer-placeholder.jpg"  // Leave this as is for now
+    "image": "./assets/officers/officer-placeholder.jpg"  // Add image to public/assets/officers and change the filepath
 }
 ```
 
