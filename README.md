@@ -132,12 +132,76 @@ The photo galleries are managed using Google Photos and configured in `src/json/
 
 The social media information is stored in `src/json/social.json`. This file controls the footer's social media buttons and copyright text.
 
-Each social media link has these fields:
+### Adding Social Media Buttons
+
+The website uses Font Awesome icons for social media buttons. Here's how to add different social media platforms:
+
+1. Common Social Media Icons:
 ```json
 {
     "platform": "Instagram",
-    "url": "https://instagram.com/unccclubswim",
+    "url": "https://instagram.com/yourhandle",
     "icon": "fab fa-instagram"
+},
+{
+    "platform": "Facebook",
+    "url": "https://facebook.com/yourpage",
+    "icon": "fab fa-facebook"
+},
+{
+    "platform": "Twitter",
+    "url": "https://twitter.com/yourhandle",
+    "icon": "fab fa-twitter"
+},
+{
+    "platform": "YouTube",
+    "url": "https://youtube.com/@yourchannel",
+    "icon": "fab fa-youtube"
+},
+{
+    "platform": "TikTok",
+    "url": "https://tiktok.com/@yourhandle",
+    "icon": "fab fa-tiktok"
+},
+{
+    "platform": "LinkedIn",
+    "url": "https://linkedin.com/company/yourpage",
+    "icon": "fab fa-linkedin"
+}
+```
+
+2. How to Add a New Platform:
+   - Open `src/json/social.json`
+   - Add a new object to the `socialLinks` array
+   - Include platform name, URL, and icon class
+   - Make sure to add commas between objects
+
+3. Icon Format:
+   - All icons start with `fab fa-` prefix
+   - Followed by the platform name in lowercase
+   - Example: `fab fa-instagram` for Instagram
+
+4. Example of Multiple Platforms:
+```json
+{
+  "socialLinks": [
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/unccclubswim",
+      "icon": "fab fa-instagram"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/unccclubswim",
+      "icon": "fab fa-facebook"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/unccclubswim",
+      "icon": "fab fa-twitter"
+    }
+  ],
+  "copyright": "© 2025 Charlotte Club Swimming. All rights reserved."
 }
 ```
 
