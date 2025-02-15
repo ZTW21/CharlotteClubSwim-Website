@@ -34,7 +34,7 @@ The officer information is stored in `src/json/officers.json`. Each officer has 
     "name": "John Doe",
     "title": "President",
     "email": "president@charlotte.edu",
-    "image": "./assets/officers/officer-placeholder.jpg"
+    "image": "./assets/officers/officer-placeholder.jpg" //Add images of the officers in public/assets/officers and change the filenames appropriately.
 }
 ```
 
