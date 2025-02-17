@@ -1,0 +1,18 @@
+{
+  "presidents": [
+    {
+      "name": "Zack Wilson",
+      "years": "2022-2024",
+      "image": "./assets/officers/prev-pres-Zack-Wilson.JPEG",
+      "achievements": ["Established the team's first home swim meet, which has since become an annual tradition.", "Led the team to its first-ever profitable season, ensuring financial sustainability for future growth.", "Successfully raised a five-figure sum each year during his presidency, ensuring the National Team had the necessary funding to compete at Nationals."],
+      "linkedin": "https://www.linkedin.com/in/zachary-t-wilson/"
+    },
+    {
+      "name": "Past President 2",
+      "years": "2021-2022",
+      "image": "./assets/officers/officer-placeholder.jpg",
+      "achievements": ["Established new practice schedules"],
+      "linkedin": "https://www.linkedin.com/"
+    }
+  ]
+}
