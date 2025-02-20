@@ -52,6 +52,15 @@
           "results": "https://www.swimcloud.com/results/334814/?gender=C"
         },
         {
+          "name": "Clemson Winter Invite",
+          "date": "February 15, 2025",
+          "location": "McHugh Natatorium - Clemson, SC",
+          "locationType": "away",
+          "description": "Jill broke 200 back record",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/336843/?gender=C"
+        },
+        {
           "name": "College Club Swimming National Championship",
           "date": "March 28-30, 2025",
           "location": "Skyline Aquatic Center - Mesa, AZ",
@@ -59,7 +68,7 @@
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/312950/?gender=C"
-        }
+        },
       ]
     },
     {
