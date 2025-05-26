@@ -66,8 +66,42 @@ function SeasonSection({ season, isExpanded, onToggle }) {
               {season.spring.map((meet, index) => (
                 <div key={index} className={`meet-card ${meet.locationType}`}>
                   <h4>{meet.name}</h4>
+                  {meet.image && (
+                    <img
+                      src={meet.image}
+                      alt={meet.name}
+                      className="meet-image"
+                    />
+                  )}
                   <div className="meet-details">
                     <p className="meet-date">📅 {meet.date}</p>
+                    <p className="meet-location">📍 {meet.location}</p>
+                  </div>
+                  <p className="meet-description">{meet.description}</p>
+                  <div className="meet-buttons">
+                    {meet.meetPacket && (
+                      <a
+                        href={meet.meetPacket}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="meet-button packet"
+                      >
+                        Meet Packet
+                      </a>
+                    )}
+                    {meet.results && (
+                      <a
+                        href={meet.results}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="meet-button results"
+                      >
+                        Results
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
                     <p className="meet-location">📍 {meet.location}</p>
                   </div>
                   <p className="meet-description">{meet.description}</p>
