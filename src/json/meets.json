@@ -9,7 +9,7 @@
           "date": "September 21, 2024",
           "location": "Georgia Tech McAuley Aquatic Center - Atlanta, GA",
           "locationType": "away",
-          "image": "/assets/meets/clt-old-logo.jpeg",
+          "image": "/assets/meets/GT24.jpg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/314208/?gender=C"
@@ -51,7 +51,7 @@
           "date": "February 1, 2025",
           "location": "Willis Casey Natatorium - Raleigh, NC",
           "locationType": "away",
-          "image": "/assets/meets/clt-old-logo.jpeg",
+          "image": "/assets/meets/pjmeet25.jpg",
           "description": "NC State accepted pajama donations as payment of meet fees instead of cash",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/334814/?gender=C"
@@ -67,11 +67,21 @@
           "results": "https://www.swimcloud.com/results/336843/?gender=C"
         },
         {
+          "name": "High Country Invitational",
+          "date": "March 1, 2025",
+          "location": "App State Student Recreation Center - Boone, NC",
+          "locationType": "away",
+          "image": "/assets/meets/clt-old-logo.jpeg",
+          "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
+          "meetPacket": "",
+          "results": "https://www.swimcloud.com/results/299163/?gender=C"
+        },
+        {
           "name": "College Club Swimming National Championship",
           "date": "March 28-30, 2025",
           "location": "Skyline Aquatic Center - Mesa, AZ",
           "locationType": "away",
-          "image": "/assets/meets/clt-old-logo.jpeg",
+          "image": "/assets/meets/nats25.jpg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/312950/?gender=C"
@@ -87,8 +97,8 @@
           "date": "September 30, 2023",
           "location": "Gabrielsen Natatorium - Athens GA",
           "locationType": "away",
-          "image": "/assets/meets/clt-old-logo.jpeg",
-          "description": "",
+          "image": "/assets/meets/UGA23.jpg",
+          "description": "At our first meet of the season, there were 5 national qualifiers! Additionally, the Women's 200-yard medley relay team record was broken by 2.16 seconds.",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/279118/?gender=C"
         },
@@ -97,7 +107,7 @@
           "date": "October 14-15, 2023",
           "location": "Willis Casey Natatorium - Raleigh, NC",
           "locationType": "away",
-          "image": "/assets/meets/clt-old-logo.jpeg",
+          "image": "/assets/meets/NCS23.jpg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/280434/?gender=C"
@@ -117,7 +127,7 @@
           "date": "November 11-12, 2023",
           "location": "Georgia Tech McAuley Aquatic Center - Atlanta, GA",
           "locationType": "away",
-          "image": "/assets/meets/clt-old-logo.jpeg",
+          "image": "/assets/meets/GT23.jpg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/283754/?gender=C"
