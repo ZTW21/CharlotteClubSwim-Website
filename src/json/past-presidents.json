@@ -1,5 +1,11 @@
 {
   "presidents": [
+     {
+      "name": "Ashley Jean",
+      "years": "2024-2025",
+      "image": "./assets/officers/prev-pres-Ashley-Jean.PNG",
+      "achievements": ["Continued ensuring financial sustainability and ensured the National Team had necessary funding"
+    },
     {
       "name": "Zack Wilson",
       "years": "2022-2024",
