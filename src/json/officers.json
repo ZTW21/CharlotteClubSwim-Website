@@ -4,19 +4,19 @@
       "name": "Ian Mervich",
       "title": "President",
       "email": "imervich@charlotte.edu",
-      "image": "./assets/officers/officer-placeholder.jpg"
+      "image": "./assets/officers/Ian.jpg"
     },
     {
       "name": "Brandon Daves",
       "title": "Vice President",
       "email": "bdaves@charlotte.edu",
-      "image": "./assets/officers/ian.jpg"
+      "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
       "name": "Jill Harbert",
       "title": "Treasurer",
       "email": "jharber1@charlotte.edu",
-      "image": "./assets/officers/officer-placeholder.jpg"
+      "image": "./assets/officers/Jill.jpg"
     },
     {
       "name": "Max Norman",
@@ -40,7 +40,7 @@
       "name": "Sammy Tjandra",
       "title": "Social Media Manager",
       "email": "stjandra@charlotte.edu",
-      "image": "./assets/officers/officer-placeholder.jpg"
+      "image": "./assets/officers/Sammy.jpeg"
     },
     {
       "name": "Avery Taberer",
