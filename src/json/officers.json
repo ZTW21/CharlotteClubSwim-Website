@@ -1,46 +1,52 @@
 {
   "officers": [
     {
-      "name": "Ashley Jean",
-      "title": "President",
-      "email": "example@charlotte.edu",
-      "image": "./assets/officers/officer-placeholder.jpg"
-    },
-    {
       "name": "Ian Mervich",
-      "title": "Vice President",
-      "email": "example@charlotte.edu",
-      "image": "./assets/officers/ian.jpg"
+      "title": "President",
+      "email": "imervich@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
       "name": "Brandon Daves",
+      "title": "Vice President",
+      "email": "bdaves@charlotte.edu",
+      "image": "./assets/officers/ian.jpg"
+    },
+    {
+      "name": "Jill Harbert",
       "title": "Treasurer",
-      "email": "example@charlotte.edu",
+      "email": "jharber1@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
-      "name": "Vidhur Jagadeesh",
+      "name": "Max Norman",
+      "title": "Secretary",
+      "email": "mnorma34@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
+    },    
+        {
+      "name": "Ryan Bai",
+      "title": "Practice Coordinator",
+      "email": "rbai@charlotte.edu",
+      "image": "./assets/officers/officer-placeholder.jpg"
+    }
+    {
+      "name": "Lana Wilson",
       "title": "Social Chair",
-      "email": "example@charlotte.edu",
+      "email": "lwils139@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
       "name": "Sammy Tjandra",
       "title": "Social Media Manager",
-      "email": "example@charlotte.edu",
+      "email": "stjandra@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
     },
     {
-      "name": "Tyler Seidel",
+      "name": "Avery Taberer",
       "title": "Safety Officer",
-      "email": "example@charlotte.edu",
+      "email": "atabbere@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
     },
-    {
-      "name": "Jill Harbert",
-      "title": "Practice Coordinator",
-      "email": "example@charlotte.edu",
-      "image": "./assets/officers/officer-placeholder.jpg"
-    }
   ]
 }
