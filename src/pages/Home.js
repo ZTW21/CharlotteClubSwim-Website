@@ -6,11 +6,27 @@ import presidentsData from '../json/past-presidents.json';
 function Home() {
   return (
     <div className="home">
-      <header className="hero">
-        <h1>Charlotte Club Swimming</h1>
-        <p>Sanctioned under <a href="https://www.collegeclubswimming.com" target="_blank" rel="noopener noreferrer" className="ccs-link">College Club Swimming (CCS)</a></p>
-      </header>
-
+        <header className="hero">
+          {homeData.heroImage && (
+            <img
+              src={homeData.heroImage}
+              alt="Team Banner"
+              className="hero-image-banner"
+            />
+          )}
+          <h1>Charlotte Club Swimming</h1>
+          <p>
+            Sanctioned under{' '}
+            <a
+              href="https://www.collegeclubswimming.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ccs-link"
+            >
+              College Club Swimming (CCS)
+            </a>
+          </p>
+        </header>
       <section className="team-info">
         <h2>Welcome to Niner Nation Swimming!</h2>
         <p>Join us in our pursuit of excellence both in and out of the pool. Our team combines competitive swimming with the college experience, creating lasting friendships and unforgettable memories.</p>
