@@ -12,15 +12,16 @@ function SeasonSection({ season, isExpanded, onToggle }) {
         <h2>{season.season} Season {season.current && "(Current)"}</h2>
         <span className={`toggle-icon ${isExpanded ? 'expanded' : ''}`}>▼</span>
       </button>
-      
+
       {isExpanded && (
         <div className="season-content">
+          {/* Fall Section */}
           <div className="semester-section">
             <h3>Fall</h3>
             <div className="meets-grid">
               {season.fall.map((meet, index) => (
                 <div key={index} className={`meet-card ${meet.locationType}`}>
-                 <h4>{meet.name}</h4>
+                  <h4>{meet.name}</h4>
                   {meet.image && (
                     <img
                       src={meet.image}
@@ -60,6 +61,7 @@ function SeasonSection({ season, isExpanded, onToggle }) {
             </div>
           </div>
 
+          {/* Spring Section */}
           <div className="semester-section">
             <h3>Spring</h3>
             <div className="meets-grid">
@@ -91,32 +93,6 @@ function SeasonSection({ season, isExpanded, onToggle }) {
                     )}
                     {meet.results && (
                       <a
-                        href={meet.results}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="meet-button results"
-                      >
-                        Results
-                      </a>
-                    )}
-                  </div>
-                </div>
-                    <p className="meet-location">📍 {meet.location}</p>
-                  </div>
-                  <p className="meet-description">{meet.description}</p>
-                  <div className="meet-buttons">
-                    {meet.meetPacket && (
-                      <a 
-                        href={meet.meetPacket}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="meet-button packet"
-                      >
-                        Meet Packet
-                      </a>
-                    )}
-                    {meet.results && (
-                      <a 
                         href={meet.results}
                         target="_blank"
                         rel="noopener noreferrer"
