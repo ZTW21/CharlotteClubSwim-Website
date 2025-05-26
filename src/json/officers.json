@@ -23,13 +23,13 @@
       "title": "Secretary",
       "email": "mnorma34@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
-    },    
-        {
+    },
+    {
       "name": "Ryan Bai",
       "title": "Practice Coordinator",
       "email": "rbai@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
-    }
+    },
     {
       "name": "Lana Wilson",
       "title": "Social Chair",
@@ -47,6 +47,6 @@
       "title": "Safety Officer",
       "email": "atabbere@charlotte.edu",
       "image": "./assets/officers/officer-placeholder.jpg"
-    },
+    }
   ]
 }
