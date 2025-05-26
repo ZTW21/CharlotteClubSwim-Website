@@ -101,7 +101,6 @@ function SeasonSection({ season, isExpanded, onToggle }) {
                     )}
                   </div>
                 </div>
-              ))}
                     <p className="meet-location">📍 {meet.location}</p>
                   </div>
                   <p className="meet-description">{meet.description}</p>
