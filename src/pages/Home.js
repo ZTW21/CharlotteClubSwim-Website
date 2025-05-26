@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import officersData from '../json/officers.json';
 import presidentsData from '../json/past-presidents.json';
-import homeData from '../json/home.json'; // ✅ Add this import
+import homeData from '../json/home.json';
 
 function Home() {
   return (
