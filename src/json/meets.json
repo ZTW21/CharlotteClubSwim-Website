@@ -9,7 +9,7 @@
           "date": "September 21, 2024",
           "location": "Georgia Tech McAuley Aquatic Center - Atlanta, GA",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/314208/?gender=C"
@@ -19,7 +19,7 @@
           "date": "October 26, 2024",
           "location": "Mecklenburg County Aquatic Center (MCAC) - Charlotte, NC",
           "locationType": "home",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/318483/?gender=C"
@@ -29,7 +29,7 @@
           "date": "November 9-10, 2024",
           "location": "Morcom Aquatic Center - Tallahassee, FL",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/320316/?gender=C"
@@ -39,7 +39,7 @@
           "date": "November 16-17, 2024",
           "location": "Willis Casey Natatorium - Raleigh, NC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/321705/?gender=C"
@@ -51,7 +51,7 @@
           "date": "February 1, 2025",
           "location": "Willis Casey Natatorium - Raleigh, NC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "NC State accepted pajama donations as payment of meet fees instead of cash",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/334814/?gender=C"
@@ -61,7 +61,7 @@
           "date": "February 15, 2025",
           "location": "McHugh Natatorium - Clemson, SC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "Jill broke 200 back record",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/336843/?gender=C"
@@ -71,7 +71,7 @@
           "date": "March 28-30, 2025",
           "location": "Skyline Aquatic Center - Mesa, AZ",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/312950/?gender=C"
@@ -87,7 +87,7 @@
           "date": "September 30, 2023",
           "location": "Gabrielsen Natatorium - Athens GA",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/279118/?gender=C"
@@ -97,7 +97,7 @@
           "date": "October 14-15, 2023",
           "location": "Willis Casey Natatorium - Raleigh, NC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/280434/?gender=C"
@@ -107,7 +107,7 @@
           "date": "October 21, 2023",
           "location": "Mecklenburg County Aquatic Center (MCAC) - Charlotte, NC",
           "locationType": "home",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/281159/?gender=C"
@@ -117,7 +117,7 @@
           "date": "November 11-12, 2023",
           "location": "Georgia Tech McAuley Aquatic Center - Atlanta, GA",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/283754/?gender=C"
@@ -127,7 +127,7 @@
           "date": "December 2, 2023",
           "location": "McHugh Natatorium - Clemson, SC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/286843/?gender=C"
@@ -139,7 +139,7 @@
           "date": "January 20, 2024",
           "location": "Willis Casey Natatorium - Raleigh, NC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "Regional championship meet featuring teams from the southeastern United States.",
           "meetPacket": "https://example.com/packet3",
           "results": "https://www.swimcloud.com/results/293660/?gender=C"
@@ -149,7 +149,7 @@
           "date": "January 27, 2024",
           "location": "McHugh Natatorium - Clemson, SC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/295261/?gender=C"
@@ -159,7 +159,7 @@
           "date": "February 17, 2024",
           "location": "Aquatic and Fitness Center Pool - Charlottesville, VA",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/297897/?gender=C"
@@ -169,7 +169,7 @@
           "date": "February 29, 2024",
           "location": "Huntersville Fun and Family Fitness Center (HFFA) - Huntersville, NC",
           "locationType": "home",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/298957/?gender=C"
@@ -179,7 +179,7 @@
           "date": "March 2, 2024",
           "location": "Watauga Community Rec Center - Boone, NC",
           "locationType": "away",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "put interesting notes in here like PBs, records broken, or national qualifiers",
           "meetPacket": "",
           "results": "https://www.swimcloud.com/results/299163/?gender=C"
@@ -188,7 +188,7 @@
           "name": "College Club Swimming National Championship",
           "date": "April 5-7, 2024",
           "location": "Indiana University Natatorium - Indianapolis, IN",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "The premier event of the College Club Swimming season featuring the top club teams from across the nation.",
           "meetPacket": "https://example.com/packet4",
           "results": "https://www.swimcloud.com/results/286121/?gender=C"
@@ -197,7 +197,7 @@
           "name": "NC EVO Cyrus Blakney Memorial A-May-Zing Meet",
           "date": "May 3-4, 2024",
           "location": "Huntersville Fun and Family Fitness Center (HFFA) - Huntersville, NC",
-          "image": "/assets/meets/white-gold.jpg",
+          "image": "/assets/meets/clt-old-logo.jpeg",
           "description": "",
           "meetPacket": "https://example.com/packet4",
           "results": "https://www.swimcloud.com/results/303478/?gender=C"
