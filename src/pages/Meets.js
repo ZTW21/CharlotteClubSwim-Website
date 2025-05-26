@@ -20,7 +20,14 @@ function SeasonSection({ season, isExpanded, onToggle }) {
             <div className="meets-grid">
               {season.fall.map((meet, index) => (
                 <div key={index} className={`meet-card ${meet.locationType}`}>
-                  <h4>{meet.name}</h4>
+                 <h4>{meet.name}</h4>
+                  {meet.image && (
+                    <img
+                      src={meet.image}
+                      alt={meet.name}
+                      className="meet-image"
+                    />
+                  )}
                   <div className="meet-details">
                     <p className="meet-date">📅 {meet.date}</p>
                     <p className="meet-location">📍 {meet.location}</p>
